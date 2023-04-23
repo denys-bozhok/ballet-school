@@ -1,0 +1,56 @@
+.padding-section{
+    padding-top: var(--padding-xxl);
+}
+
+.padding-main {
+    padding-left: var(--padding-l);
+    padding-right: calc(var(--padding-l) - 1px);
+}
+.padding-medium {
+    padding-top: var(--padding-m);
+}
+
+.padding-p__rewiev {
+    padding-top: var(--padding-xs);
+}
+
+.padding-p {
+    padding-top: var(--padding-s);
+}
+
+
+
+.section-tittle {
+    font-family: var(--ff-kaisei);
+    font-size: var(--fs-m);
+    color: var(--primary-text-color);
+}
+.sub-tittle {
+    font-family: var(--ff-assistant);
+    font-size: var(--fs-xs);
+    color: var(--primary-text-color);
+}
+.paragraph {
+    font-family: var(--ff-assistant);
+    font-size: calc(var(--fs-xs) - 2px);
+    line-height: var(--line-h-xl);
+}
+
+
+.flex-between,
+.flex-center {
+    display: flex;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}

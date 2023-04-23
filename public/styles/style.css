@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#app {
+    width: 375px;
+    background: var(--primary-bg);
+    color: var(--secondary-text-color);
+}
+
+.prewiev__container {
+    padding: 41px 40px 4px 39px;
+}
+
+.logo {
+    font-family: var(--ff-inter);
+    text-transform: uppercase;
+    font-size: var(--fs-s);
+}
+
+.line {
+    background: var(--primary-text-color);
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 3px;
+}
+
+.prewiev {
+    background: url(../images/backgrounds/background-1.png);
+    background-position: 60%;
+    background-size: 1026px;
+    height: 476px;
+    color: var(--primary-text-color);
+}
+
+.prewiev__tittle {
+    font-family: var(--ff-kaisei);
+    font-size: calc(var(--fs-l) - 2px);
+}
+
+.prewiev__player {
+    background: url(../images/backgrounds/background-2.png);
+    background-size: 416px;
+    background-position: left;
+    height: 165px;
+}
+
+.play__img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: 0.5px;
+}
+
+
+.banner__img {
+    width: 296px;
+    height: 130px;
+}
+
+.max-w-paragraph {
+    display: none;
+}
+
+.more {
+    color: var(--third-text-color);
+}
+
+.directions-container {
+    padding-bottom: 40px;
+}
+.read-more__tittle,
+.send-form__tittle{
+    padding-right: 10px;
+}
+.row {
+    width: 30px;
+}
+
+
+.directions-player__bg-1 {
+    background: url(../images/directions/classical-ballet.png);
+}
+.directions-player__bg-2 {
+    background: url(../images/directions/ballet-duet.png);
+}
+.directions-player__bg-3 {
+    background: url(../images/directions/performance.png);
+}
+
+
+.trainers{
+    padding-top: 20px;
+}
+.trainers__galery{
+    padding-top: 30px;
+}
+.trainer__name{
+    padding-bottom: 60px;
+}
+.trainers__img-1 {
+    background: url(../images/instructors/lilia.png);
+}
+.trainers__img-2 {
+    background: url(../images/instructors/elizaveta.png);
+}
+.trainers__img-3 {
+    background: url(../images/instructors/margo.png);
+}
+
+
+.groups__tittle {
+    padding-bottom: 30px;
+}
+
+.group-1 {
+    background-image: url(../images/groups/upper-ballet.png);
+    width: 296px;
+    height: 211px;
+    margin-bottom: 38px;
+}
+
+.group-2 {
+    background-image: url(../images/groups/junior-ballet.png);
+    width: 296px;
+    height: 211px;
+    margin-bottom: 60px;
+}
+.group-1__tittle,
+.group-2__tittle{
+    padding-top: 142px;
+    padding-left: 10px;
+}
+.group-1__discription,
+.group-2__discription{
+    padding-left: 10px;
+}
+
+.get-touch__row {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--primary-text-color);
+    
+}
+
+.get-touch__agree {
+    padding-top: 32px;
+}
+
+.agree__info {
+    padding-left: 11px;
+    color: var(--primary-text-color);
+}
+.agree__button{
+    border: none;
+    border: 1px solid var(--primary-text-color);
+    background: var(--primary-bg);
+    width: 20px;
+    height: 20px;
+}
+
+.send-form{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--secondary-text-color)
+}
+.send-form__tittle{
+    font-size: 18px;
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.trainers__img-1,
+.trainers__img-2,
+.trainers__img-3,
+.directions-player__bg-1,
+.directions-player__bg-2,
+.directions-player__bg-3,
+.group-1,
+.group-2 {
+    background-size: cover;
+}
+
+.trainers__img-1,
+.trainers__img-2,
+.trainers__img-3
+{
+    width: 296px;
+    height: 322px;
+}
+
+.directions-player__bg-1,
+.directions-player__bg-2,
+.directions-player__bg-3{
+    width: 296px;
+    height: 92px;
+}
+
