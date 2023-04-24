@@ -30,14 +30,61 @@ h2 {
     overflow-x: hidden;
 }
 
-.prewiev__container {
-    padding: 41px 40px 4px 39px;
-}
-
-.logo {
+.logo,
+.nav-list__row {
     font-family: var(--ff-inter);
     text-transform: uppercase;
+}
+
+.send-form__tittle,
+.logo{
     font-size: var(--fs-s);
+}
+
+.read-more__tittle,
+.send-form__tittle{
+    padding-right: var(--padding-xs);
+}
+
+.agree__button,
+.play__img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.agree__info,
+.prewiev,
+.more:hover {
+    color: var(--primary-text-color);
+}
+
+.group-1__tittle,
+.group-2__tittle,
+.group-1__discription,
+.group-2__discription {
+    padding-left: var(--padding-xs);
+}
+
+.group-1__tittle,
+.group-2__tittle{
+    padding-top: calc(var(--padding-xxxl) + 14px);
+}
+
+.group-2,
+.group-1 {
+    width: 296px;
+    height: 211px;
+}
+
+.trainers,
+.footer,
+.get-touch__row {
+    padding-top: var(--padding-s);
+}
+
+.prewiev__container {
+    padding: 41px 40px 4px 39px;
 }
 
 .line{
@@ -45,16 +92,14 @@ h2 {
     width: 18px;
     height: 2px;
     border-radius: 1px;
-    margin: 3px;
+    margin: var(--margin-xxs);
 }
-
 
 .prewiev {
     background: url(../images/backgrounds/background-1.png);
     background-position: 60%;
     background-size: 1026px;
     height: 476px;
-    color: var(--primary-text-color);
 }
 
 .prewiev__tittle {
@@ -70,13 +115,10 @@ h2 {
 }
 
 .play__img{
-    width: 20px;
-    height: 20px;
     position: relative;
     top: 3px;
     left: 0.5px;
 }
-
 
 .banner__img {
     width: 296px;
@@ -90,22 +132,14 @@ h2 {
 .more {
     color: var(--third-text-color);
 }
-.more:hover {
-    color: var(--primary-text-color);
-}
-
 
 .directions-container {
-    padding-bottom: 40px;
+    padding-bottom: var(--padding-l);
 }
-.read-more__tittle,
-.send-form__tittle{
-    padding-right: 10px;
-}
+
 .row {
     width: 30px;
 }
-
 
 .directions-player__bg-1 {
     background: url(../images/directions/classical-ballet.png);
@@ -117,15 +151,11 @@ h2 {
     background: url(../images/directions/performance.png);
 }
 
-
-.trainers{
-    padding-top: 20px;
-}
 .trainers__galery{
-    padding-top: 30px;
+    padding-top: var(--padding-m);
 }
 .trainer__name{
-    padding-bottom: 60px;
+    padding-bottom: var(--padding-xxl);
 }
 .trainers__img-1 {
     background: url(../images/instructors/lilia.png);
@@ -137,120 +167,40 @@ h2 {
     background: url(../images/instructors/margo.png);
 }
 
-
 .groups__tittle {
-    padding-bottom: 30px;
+    padding-bottom: var(--padding-m);
 }
 
 .group-1 {
     background-image: url(../images/groups/upper-ballet.png);
-    width: 296px;
-    height: 211px;
-    margin-bottom: 38px;
+    margin-bottom: calc(var(--margin-l) - 2px);
 }
 
 .group-2 {
     background-image: url(../images/groups/junior-ballet.png);
-    width: 296px;
-    height: 211px;
-    margin-bottom: 60px;
-}
-.group-1__tittle,
-.group-2__tittle{
-    padding-top: 142px;
-    padding-left: 10px;
-}
-.group-1__discription,
-.group-2__discription{
-    padding-left: 10px;
+    margin-bottom: var(--margin-xxl);
 }
 
 .get-touch__row {
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: calc(var(--padding-xs) / 2);
     border-bottom: 1px solid var(--primary-text-color);
-    
 }
 
 .get-touch__agree {
-    padding-top: 32px;
+    padding-top: calc(var(--padding-m) + 2px);
 }
 
 .agree__info {
-    padding-left: 11px;
-    color: var(--primary-text-color);
+    padding-left: calc(var(--padding-xs) + 1px);
 }
 .agree__button{
-    border: none;
     border: 1px solid var(--primary-text-color);
-    background: var(--primary-bg);
-    width: 20px;
-    height: 20px;
 }
 
 .send-form{
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: var(--padding-xxl);
+    padding-bottom: calc(var(--padding-xxl) + 20px);
     border-bottom: 1px solid var(--secondary-text-color)
-}
-.send-form__tittle{
-    font-size: 18px;
-}
-
-.footer {
-    padding-top: 20px;
-}
-
-
-.nav-list {
-    width: 296px;
-    height: 0;
-    visibility: hidden;
-    position:absolute;
-    top: 60px;
-    left: 39px;
-    padding-bottom: 10px;
-    background: linear-gradient(to top, var(--primary-bg) 40%, transparent);
-    transition-duration: 0.2s;
-}
-.nav-list__row {
-    visibility: hidden;
-    padding-top: 5px;
-    color: var(--secondary-text-color);
-    font-family: var(--ff-assistant);
-    font-size: 5px;
-    text-transform: uppercase;
-    width: 150px;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.nav-list__row:first-child {
-    transition-duration: 0ms;
-    transition-delay: 0.2s;
-}
-.nav-list__row:last-child {
-    transition-duration: 0.2s;
-    transition-delay: 0ms;
-}
-.nav-list__row a:hover {
-    border-bottom: 1px solid var(--primary-text-color);
-    color: var(--primary-text-color);
-}
-.burger-menu:hover{
-    background: var(--primary-text-color);
-    border-radius: 1px;
-}
-.burger-menu:hover .line{
-    background-color: var(--primary-bg);
-}
-.burger-menu:hover .nav-list{
-    height: 130px;
-    visibility:visible;
-}
-.burger-menu:hover .nav-list__row {
-    font-size: 14px;
-    visibility: visible;
 }
 
 .trainers__img-1,

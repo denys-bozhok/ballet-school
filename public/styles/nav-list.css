@@ -1,0 +1,50 @@
+.nav-list__row,
+.nav-list {
+    visibility: hidden;
+}
+
+.nav-list {
+    width: 296px;
+    height: 0;
+    position:absolute;
+    top: 60px;
+    left: 39px;
+    padding-bottom: var(--padding-xs);
+    background: linear-gradient(to top, var(--primary-bg) 40%, transparent);
+    transition-duration: 0.2s;
+}
+.nav-list__row {
+    padding-top: calc(var(--padding-xs) / 2);
+    font-size: var(--fs-xxs);
+    width: 150px;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.nav-list__row:first-child {
+    transition-duration: 0ms;
+    transition-delay: 0.2s;
+}
+.nav-list__row:last-child {
+    transition-duration: 0.2s;
+    transition-delay: 0ms;
+}
+.nav-list__row a:hover {
+    border-bottom: 1px solid var(--primary-text-color);
+    color: var(--primary-text-color);
+}
+.burger-menu:hover{
+    background: var(--primary-text-color);
+    border-radius: 1px;
+}
+.burger-menu:hover .line{
+    background-color: var(--primary-bg);
+}
+.burger-menu:hover .nav-list{
+    height: 130px;
+    visibility:visible;
+}
+.burger-menu:hover .nav-list__row {
+    font-size: 14px;
+    visibility: visible;
+}
