@@ -23,6 +23,11 @@ h2 {
     font-weight: inherit;
 }
 
+body {
+    background: linear-gradient(to right, darkmagenta 1%, var(--primary-bg)  7% 93%,  darkmagenta 99%);
+    /* background: linear-gradient(to left, black 3%, var(--primary-bg) 10% 90%,  black 97%); */
+}
+
 #app {
     width: 375px;
     background: var(--primary-bg);
