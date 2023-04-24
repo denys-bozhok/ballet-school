@@ -3,35 +3,42 @@
         width: 1512px;
     }
 
-    .padding-main{
+    .padding-main {
         padding: 0 128px 0 128px;
     }
+
     .padding-p__rewiev {
         padding-top: var(--padding-s);
     }
+
     .padding-section {
         padding-top: calc(var(--padding-xxxl) - 8px);
     }
 
-    
+
     .prewiev__tittle {
         font-size: var(--fs-xxl);
     }
+
     .section-tittle {
         font-size: calc(var(--fs-xl) - 10px);
     }
+
     .sub-tittle {
         font-size: 24px;
     }
+
     .paragraph {
         font-size: var(--fs-s);
         line-height: var(--line-h-xxl);
         max-width: 736px;
     }
+
     .min-w-paragraph,
-    .more{
+    .more {
         display: none;
     }
+
     .max-w-paragraph {
         display: contents;
     }
@@ -42,9 +49,11 @@
         width: 100%;
         height: 841px;
     }
-    .prewiev__container{ 
+
+    .prewiev__container {
         padding: 41px 128px 124px 128px;
     }
+
     .logo {
         font-size: var(--fs-m)
     }
@@ -53,7 +62,8 @@
         background-size: cover;
         height: 599px;
     }
-    .play__img{
+
+    .play__img {
         width: 60px;
         height: 60px;
     }
@@ -61,6 +71,7 @@
     .banner {
         padding-top: var(--padding-xxl);
     }
+
     .banner__img {
         width: 1256px;
         height: 469px;
@@ -69,31 +80,36 @@
     .trainers__tittle {
         padding-bottom: 30px;
     }
-    .directions__tittle{
+
+    .directions__tittle {
         padding-bottom: 40px;
     }
+
     .directions-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .directions-player__bg-1,
     .directions-player__bg-2,
-    .directions-player__bg-3{
+    .directions-player__bg-3 {
         width: 259px;
     }
 
 
-    .trainers{
+    .trainers {
         padding-top: 80px;
     }
-    .trainers__galery{
+
+    .trainers__galery {
         display: flex;
         justify-content: space-between;
     }
+
     .trainers__img-1,
     .trainers__img-2,
-    .trainers__img-3{
+    .trainers__img-3 {
         width: 365px;
         height: 394px;
     }
@@ -112,23 +128,25 @@
         height: 523px;
         margin-bottom: 38px;
     }
-    
+
     .group-2 {
         width: 506px;
         height: 523px;
         margin-bottom: 60px;
     }
+
     .group-1__tittle,
-    .group-2__tittle{
+    .group-2__tittle {
         padding-top: 428px;
         padding-left: 21px;
     }
+
     .group-1__discription,
-    .group-2__discription{
+    .group-2__discription {
         padding-left: 21px;
     }
 
-    .get-touch__container{
+    .get-touch__container {
         padding-top: 20px;
         width: 562px;
     }
@@ -143,12 +161,50 @@
         font-size: 16px;
         justify-content: left;
     }
-    .send-form{
+
+    .send-form {
         padding-top: 80px;
         padding-bottom: 120px;
     }
 
+    .nav-list {
+        padding-right: 350px;
+        visibility: visible;
+        padding-bottom: 0;
+        background: none;
+        position: inherit;
+    }
 
+    .nav-list__row {
+        padding-left: 60px;
+        visibility: visible;
+        padding-top: 0;
+        background: inherit;
+        font-family: var(--ff-kaisei);
+        font-size: 14px;
+        text-transform: none;
+    }
 
-    
+    .line-box {
+        display: none;
+    }
+
+    .nav-list ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .burger-menu,
+    .nav {
+        display: block;
+    }
+
+    .burger-menu:hover {
+        background: inherit;
+    }
+
+    .burger-menu:hover .nav-list {
+        height: auto;
+    }
+
 }
