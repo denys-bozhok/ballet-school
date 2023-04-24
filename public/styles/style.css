@@ -19,10 +19,9 @@ li {
 }
 
 h2 {
-    text-transform: none;
-    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
 }
-
 
 #app {
     width: 375px;
@@ -41,7 +40,7 @@ h2 {
     font-size: var(--fs-s);
 }
 
-.line {
+.line{
     background: var(--primary-text-color);
     width: 18px;
     height: 2px;
@@ -70,7 +69,7 @@ h2 {
     height: 165px;
 }
 
-.play__img {
+.play__img{
     width: 20px;
     height: 20px;
     position: relative;
@@ -91,7 +90,6 @@ h2 {
 .more {
     color: var(--third-text-color);
 }
-
 .more:hover {
     color: var(--primary-text-color);
 }
@@ -100,12 +98,10 @@ h2 {
 .directions-container {
     padding-bottom: 40px;
 }
-
 .read-more__tittle,
-.send-form__tittle {
+.send-form__tittle{
     padding-right: 10px;
 }
-
 .row {
     width: 30px;
 }
@@ -114,36 +110,29 @@ h2 {
 .directions-player__bg-1 {
     background: url(../images/directions/classical-ballet.png);
 }
-
 .directions-player__bg-2 {
     background: url(../images/directions/ballet-duet.png);
 }
-
 .directions-player__bg-3 {
     background: url(../images/directions/performance.png);
 }
 
 
-.trainers {
+.trainers{
     padding-top: 20px;
 }
-
-.trainers__galery {
+.trainers__galery{
     padding-top: 30px;
 }
-
-.trainer__name {
+.trainer__name{
     padding-bottom: 60px;
 }
-
 .trainers__img-1 {
     background: url(../images/instructors/lilia.png);
 }
-
 .trainers__img-2 {
     background: url(../images/instructors/elizaveta.png);
 }
-
 .trainers__img-3 {
     background: url(../images/instructors/margo.png);
 }
@@ -166,15 +155,13 @@ h2 {
     height: 211px;
     margin-bottom: 60px;
 }
-
 .group-1__tittle,
-.group-2__tittle {
+.group-2__tittle{
     padding-top: 142px;
     padding-left: 10px;
 }
-
 .group-1__discription,
-.group-2__discription {
+.group-2__discription{
     padding-left: 10px;
 }
 
@@ -182,7 +169,7 @@ h2 {
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid var(--primary-text-color);
-
+    
 }
 
 .get-touch__agree {
@@ -193,8 +180,7 @@ h2 {
     padding-left: 11px;
     color: var(--primary-text-color);
 }
-
-.agree__button {
+.agree__button{
     border: none;
     border: 1px solid var(--primary-text-color);
     background: var(--primary-bg);
@@ -202,13 +188,12 @@ h2 {
     height: 20px;
 }
 
-.send-form {
+.send-form{
     padding-top: 60px;
     padding-bottom: 80px;
     border-bottom: 1px solid var(--secondary-text-color)
 }
-
-.send-form__tittle {
+.send-form__tittle{
     font-size: 18px;
 }
 
@@ -221,14 +206,13 @@ h2 {
     width: 296px;
     height: 0;
     visibility: hidden;
-    position: absolute;
+    position:absolute;
     top: 60px;
     left: 39px;
     padding-bottom: 10px;
     background: linear-gradient(to top, var(--primary-bg) 40%, transparent);
     transition-duration: 0.2s;
 }
-
 .nav-list__row {
     visibility: hidden;
     padding-top: 5px;
@@ -245,31 +229,25 @@ h2 {
     transition-duration: 0ms;
     transition-delay: 0.2s;
 }
-
 .nav-list__row:last-child {
     transition-duration: 0.2s;
     transition-delay: 0ms;
 }
-
 .nav-list__row a:hover {
     border-bottom: 1px solid var(--primary-text-color);
     color: var(--primary-text-color);
 }
-
-.burger-menu:hover {
+.burger-menu:hover{
     background: var(--primary-text-color);
     border-radius: 1px;
 }
-
-.burger-menu:hover .line {
+.burger-menu:hover .line{
     background-color: var(--primary-bg);
 }
-
-.burger-menu:hover .nav-list {
+.burger-menu:hover .nav-list{
     height: 130px;
-    visibility: visible;
+    visibility:visible;
 }
-
 .burger-menu:hover .nav-list__row {
     font-size: 14px;
     visibility: visible;
@@ -288,14 +266,16 @@ h2 {
 
 .trainers__img-1,
 .trainers__img-2,
-.trainers__img-3 {
+.trainers__img-3
+{
     width: 296px;
     height: 322px;
 }
 
 .directions-player__bg-1,
 .directions-player__bg-2,
-.directions-player__bg-3 {
+.directions-player__bg-3{
     width: 296px;
     height: 92px;
 }
+
